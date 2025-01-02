@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: scotchbase
+  labels:
+    app: scotchbase
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: scotchbase
+  template:
+    metadata:
+      labels:
+        app: scotchbase
+    spec:
+      containers:
+      - name: scotchbase
+        image: 505502261492.dkr.ecr.ap-northeast-1.amazonaws.com/scotchbase:latest
+        ports:
+        - containerPort: 8080
