@@ -1,0 +1,3 @@
+resources:
+  - scotchbase-deployment.yaml
+  - scotchbase-service.yaml
