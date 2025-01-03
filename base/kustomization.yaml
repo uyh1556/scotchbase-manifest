@@ -5,4 +5,4 @@ apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 images:
 - name: 505502261492.dkr.ecr.ap-northeast-1.amazonaws.com/scotchbase
-  newTag: a030f618ac5caaf8eee9d69043fb02485132022b
+  newTag: 8b38e5cc6320ba6c436cc1a117eed78d982b7dad
